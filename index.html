@@ -6,8 +6,8 @@
   <title>Web Studio</title>
 </head>
 <body>
-  <a href="/">Web Studio</a>
 <header>   
+    <a href="/">Web Studio</a>
     <nav>
       <ul>
         <li><a href="#">Студия</a></li>
@@ -27,11 +27,13 @@
     </address>
   </header> 
   <main>
-    <section class="header">
+    <section class="firs-pic">
       <h1>Эффективные решения для вашего бизнеса</h1>
       <a href="#">Заказать услугу</a>
     </section>
-    <section class="qualities">
+    <section class="qualities">  
+      <!-- добавил скрытый заголовок h2 для семантики -->
+      <h2 style="display: none;">Наши преимущества</h2>
       <ul>
         <li>
           <a href="" aria-label="satelit"></a>
@@ -143,7 +145,7 @@
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
     </address>
-    <div class="join-us">
+    <section class="join-us">
       <h3>присоединяйтесь</h3>
       <ul>
         <li><a href="" aria-label="instagram"></a></li>
@@ -151,14 +153,14 @@
         <li><a href="" aria-label="facebook"></a></li>
         <li><a href="" aria-label="linkedin"></a></li>
       </ul>
-    </div>
-    <div class="sing-up">
+    </section>
+    <section class="sing-up">
       <h3>Подпишитесь на рассылку</h3>
       <form action="#">
-        <input type="text" size="30" name="E-mail" value="E-mail">
+        <input type="text" name="E-mail" value="E-mail">
         <input type="submit" value="Подпишитесь на рассылку">
       </form>
-    </div>
+    </section>
     <div>2020 | Developed by GoIT Students </div>
   </footer>
 </body>
